@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    /* The image used */
+    background-image: url("images/bgg2.jpeg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    background-color: rgb(240, 240, 240);
+    opacity: 0.85;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto; 
+    width: 25%;
+    height: 60%;
+    overflow: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    box-shadow: 0px 0px 50px 2px #424242;
+    text-align:center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 190px;
+    z-index:1;
+}
+
+input {
+    background-color:rgb(255, 255, 255); 
+    border: solid 1.4px rgb(121, 121, 121);
+    border-radius: 5px;
+    margin-bottom:50px;
+    height:40px;
+    font-size:14pt;
+    cursor: auto;
+    z-index:2;
+}
+
+label {
+    display: none;
+    margin-top:-25.5px;
+    padding-left: 15px;
+    font-family: Calibri Light,Times, serif;
+    font-weight: 990;
+    font-size: 130%;
+    color: rgb(53, 53, 53);
+    text-indent: -15px;
+}
+
+
+/* ::placeholder {
+    color: white;
+    opacity: 1; // Firefox 
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 
+   color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge 
+   color: white;
+} */
