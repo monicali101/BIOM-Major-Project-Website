@@ -37,7 +37,7 @@ Password: Admin1234
 ### Edit Patient/Practitioner Info (same layout)
 &nbsp;
 
-![Login](/images/7.PNG)
+![Login](/images/7.png)
 
 &nbsp;  
 ### Add Patient Info
